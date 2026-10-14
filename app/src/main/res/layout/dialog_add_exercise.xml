@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/etExerciseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:hint="Exercise name (e.g. Bench Press)"
+            android:inputType="textCapWords"
+            android:padding="14dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6C8BAE" />
+
+        <EditText
+            android:id="@+id/etSets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_input"
+            android:hint="Number of sets"
+            android:inputType="number"
+            android:padding="14dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6C8BAE" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:text="Muscle groups (tap all that apply)"
+            android:textColor="#D7E3F0"
+            android:textSize="14sp" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#D7E3F0" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbChest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chest"
+            android:textColor="#D7E3F0" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbCore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Core"
+            android:textColor="#D7E3F0" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbShoulders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shoulders"
+            android:textColor="#D7E3F0" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbArms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arms"
+            android:textColor="#D7E3F0" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbLegs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Legs"
+            android:textColor="#D7E3F0" />
+    </LinearLayout>
+</ScrollView>
